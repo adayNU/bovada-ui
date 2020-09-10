@@ -1,13 +1,49 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	font: 14px "Century Gothic", Futura, sans-serif;
+	margin: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.parlay {}
+
+.parlay td {
+	padding: 20px;
+	text-align: center;
+	width: 150px;
 }
+
+.bet {}
+
+.bet td, th{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	width: 150px;
+}
+
+.won {
+	background-color: #0cb318;
+	color: #003003;
+}
+
+.winning {
+	background-color: #99ffa0;
+	color: #017009;
+}
+
+.losing {
+	background-color: #ffa6a6;
+	color: #ab0202;
+}
+
+.lost {
+	background-color: #db0202;
+	color: #380101;
+}
+
+.tied {}
+
+.button {
+	margin: 10px;
+}
+
+
